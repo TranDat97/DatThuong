@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<h3> 私たちの結婚式の写真を見てみましょう </h3>
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    </head>
+    <style > 
+    h3{
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+        text-align: center;
+        color: deeppink;
+    }
+    .text{
+        font-family: 'Tangerine', serif;
+        font-size: 24px;
+        text-align: center;
+        color: deeppink;
+    }
+    body{
+    background-image: url('https://lh3.googleusercontent.com/fife/AAWUweVg7-BjYBfh222L1e228PBjWR544vLvqSshVdwLNmHbKKjYil4E5-gxxPEas5f2ij5iySod-3lCSJa7sCds2je-X49BbuFojS-ldJBRmRXSXkkNnFZkOoTXTXO3tj8WtYPXsh3nEaOf2yYj1SZbmuDISagA836ujncYDI2MNaOBI9CBdr7j1Wkb4c5RcqBmEGOcWxZRyUElw5bcBtZVEkf0PqBF-7rSjxKOq8lVDUgrOo8MKf7MiFP426skX2O_4OXjeTWY9_cdmyrPRPS-cBaBUcKZ4XSXf0DfCkZNoMRlzBpFmw1GpPMoBF3e9hTTncPbUVAGJY_OenNsussqsuTzBdLDl4LMcr9u1A0JhdqDMvLiOZ2MBbcr_AL24V-p5t0CTJiVraHcJ9Fzb6zQ8m7oGHt6gwpPUvCsBoNCzZ7GFbsxtT09UsYfKwJLx_jf5OwiIA0W7U4ceZ07SFNGzwiv7CE2-UV-eYVnzBwQRrY9D4GN1-l23phKiRKvqoSrkj-MohNwTbhzPTrSRnLIaYdeX6I2yxVPNyfdEtuM4MSN0HrmQEGuExIgvBkDLGvrjErsri_yNLSf0BrUoZHcNP9M5t4tSfjirkWPVgQJC-V8q33PiNgcDPWt9j8tYYSmF2_L23mqGePXPsh3eq2raSqQ5DZQFvzZOi7jfU80dsP4phmucr-3HMXTf00UuddI_bUFGLWb0K0OyCYCjDVFedYeo_Vl7UpVXlI=w1366-h663-ft');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+   
+  }
+  .content{
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      
+  }
+
+  .slideshow-container{
+        width: 442px;
+        height: 663px;
+        border: 2px solid red;
+        position: relative;
+        margin: auto;     
+  }
+  .mySlides {
+  display: none;
+  width: 442px;
+  height: 663px;
+  object-fit: cover;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color:crimson;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+/* .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+    </style>
+    <body>
+        <div class="content">
+<!-- Anh phong -->
+          <div class="content_ap">
+    <div class="slideshow-container">
+        <div class="fade slider" id="div1">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweXfh3rLZMHwU7lHSklPIvC8b8SZ6Rcdxr9w514Layn0txMa_FoVgYs7vbWK2yrJyj4XLEbTdhY4fT92lUB44zQGcinIWX7YdwYIIa2V5YPZxdSNPxf3FXSj4-cqA-pPvnBrZcaBSPvpBF7y3gTUGAWe1-fis5TAB_wZw2WQL06I_hnhZpfVql-ifAQOcE3HViIF9wVTpC-E3IlHifd_x_JmoW6H_ejp5qHTZT1RUNs1Y2e0tljG21FWfsmHmVMVgMBhtlgvLTXnKzvhzTdxAGqSpPuPeYjoGo0perzuR_WdW5uBckpscOqstMkFuc_H3KqSHN0s8PbTG7n2v-SKZ3YfQ5wPSDGo-eZjjLp0WTIEkkPGOJR7hqokcSFlGCmWTJCsQ30kf4xxDhQMaIXMlHYLpZzIcFPdj2tnLiWWWnGFMmsbm_ZBn0JSSEXi747PYGSBMFSOeJFnQI6w1UX8bz4Q4NMHWkX-f9ICc1MuE8RFJair5JunabmLQuffKF13HuX_lDEeTNvaGw4wIhtJaflItsqdMGzs3dUJdNjiRRE-WrnBmY0QWofNDDPOxxHh5PCrno_FChNQ-HWqmLeCF6RXm1N-fdpWqIVdU8bpib0KYWLfmU_EUL8-7hwfltaXFk6I4zRqyq3jIxOjTyfl8ECI9Vp-eMyXzmQCm-2IdnTc-axUzEQ-ecXdP5t9ZJcjHgsfswlcEeWuw9D5ZAJCCu6ji7atW_ZkT2I=w1366-h663-ft" style="width:100%">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweWTBFAErDr0f6PwB5sqDR3yqXkwDEOlCH6xjCHTJEjpWbUXQfQdsUdpvEaKWm3_rHl8Maupcxgrh_mjMYXrkVR7GyyFSzjABVHb-VICkpdLERxYrShQ_J5J5HWfuYwUTDXY9LlAG96XR2iqEwS9CfBFY6-WVEqVkAJre7faYTY7enrxRBcI0d4pdIRVk1yp3UdDQPamo8DAa7Rd-aXtLfv2az0eKcoqXfDjO6aoz9v4Dom_B7Kp558R1K21ECvU28BuJon1dKLHg1k2kMxT4tXLQAzO9UCoFwpA3bOFA_0QlBHbUcIz5OghS49X__tp00dc-4vgZ7s9pFrA4zGLe_mMxlJZ-PBNgPiGQGf9WtmoCg42m12tJocePvwZLLayTIDzASMPDhl0KsQUV6HH0Gvco6YuvN9TXtC5E_JxOG75Su1uRpTjAUc6yqGybvheGUFU0x9Kx7WnefuM_eZt7ECt6yHKf7oZXQZEORr5j7Pj9TL9-644GQoCWYOGuemRIkzEFNyr80g5quEyxPCo5xU0YcW5ji5ZQFak3iiasevkBobMXl-PYQ_7afPO45YmTzOcByYyL1AHUMTdH0K7CyFXzZo865N3f5e-2sZjLhboYdHhCfCyR_I-T_q3Wh-p6fKwWhoYFZYUBTvUd-IQ85Bao0AzTqol99wm8YolfxYNYnbLzvGO6wdy9P3lLBrbEiSm1ExI2ExFeZBnJPq_JMn6THdmWGAhxo4=w1366-h663-ft" style="width:100%">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweV0PLMqHwdarEHGa2q83_vpNUAsy2yjGY_Ni7FZX2nWwIDfDw3Ie8owff8y5saOGCwU9-aFpW2uX7ltE7wuMJ4kjcDAbx-OjfqfR0h1Mad1YNLW5C-tz6pLOlQykUaEc7Z4KrEeJHjXd3_Yc4NDhnKwLoJYG-UT9T5WoKsbcG778QKf029m_4H-ENxTzWZmW8zs7EWFbPynGhCLfSkAOmDzxgIApa3VHMiIYzDG1yMwR24KuwdIq1noWnaqXQQo8ImHxLPUoTlnWYGIXhLg9i9Uxz1qhhZhblLf27aiPGF2xn-o4VpUhHLzKyEsvIpVldSP3Tk00wMIf6Ir54AWleSQKIY94rFcTK3eimehtdg_gH1-Gvd0efAYzplVmJmR-dq4yPbQk6Lmu1GxcWaIuy27E-zNb2YQuUS917CZq9UXNc0Pi9Ni82LvoUtQe0KBHScr6swjWYBBbx9V-RNhkBqioUydk7R9hN_9ResVu38efol-VVt28kZnG8JidtkGCyynoDfqz3dEYAi6pJz9kNPb0Ifv_7hINL6G4G7i84SQJ3DszrHUJEiwtd2Ro5JWyH5RoOiV2l7BOxsez8cxAgsLehlz2XXSN1nS8-CsVfcp-0nlLyc0FSHT8zGb8SVDDoBDnsH6Zad5EA9BaRzLfg2fj5nnJ7qoCvTRILmH7IedbuKpU-eg65i9vCwJSi_v0NlG7N0QZxnKwUzNj8jgcfR8jIigEvrcXFo=w811-h663-ft" style="width:100%">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweVK5c2wavbj_Agn1UG284sc02zflnDUFXdjO4St2ixoPOz84-hUdXP3xNCRRfcznngzhbTJcukd1DewHosg_Th2nDmGs1MhnTQJUFTDWLqOtMo25tVA1VYtX3DHyHyQQ0UxCK_48sgXBaX9yLoHT6CJcZgcNrMvStUTjT1FQNXrbpOMoELf3goJxvOFwjzlDcjC094Tfy0_mP7udcDk9r62h7gr1pH-HHv-rxdPQjXdQ9A0ZyHgqfZhGNqLJVIVVcDfgEFx9WNr3AoByDlh0iJzZaAxuSuNvG288i5vl3-O_GHLH7phFK520oaCwlCU-FrTTUQD-IXjPw-lOZ9yNnwS4bSy5YEjhTliRbDTqS5E39aYbYGAiyxyLbGdkix3kJaCi2H8J47TiimtFO_0pmS4Z9zdYrz0cb_cHdufr6vxxEFkxFKoGlFBr08-OrZVns0BvghQ5YXIMEwiWrYa-9e2s1atfFfPsoLXZRRM6iPmYbNb6e1fr56j8cn5FTNGTc2MNs2_VAgkgGzYNGe5QsjrcGj3oqEzomST7eKaIgdf5POIRpyaQs24UcNLAW1k9QuvgBI3FlnZF6H_41hbadpknwvfuyWqxCcfHJrp1yw4BOJbZtIe-XgRpm_aExqRwWlWIijDAahWxylrRIuM9dxmJnL8p0S2AQBbIuZ2keXRAQPVzzbvoyjPj0tZDnz9LRibvjsN6D5LQGmYlgNHM7A7FzVhl76JprQ=w811-h663-ft" style="width:100%">
+          
+            <a class="prev" onclick="plusDivs(this,-1)">&#10094;</a>
+            <a class="next" onclick="plusDivs(this,1)">&#10095;</a>
+                      </div>
+    </div>
+    <h4 class="text"> 拡大写真  </h4>
+ 
+</div>
+
+
+ <!-- Album -->
+ <div class="content_ab">
+    <div class="slideshow-container">
+        <div class="fade slider" id="div2">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweXul9yQ7AZ8ajW9T6rtHwAZNm7RQ_TfA1Do_NRYzP8TjRYAylARASE-MIoKR7ErQVjjP7nN6cibFV8Ws1HzXDwGtUTfPx6QkYjT5vyJ42WrwUFebaALPIRIh3Oza-LsEO_OEfJskI9PbgzbevK5QY9AigV-X3oqbgvo3PJ8zftdW3_ihBHGRksTIxioHurtJShYuGMOty2plUqg6XyL60Kh8xk0WrSuptHnkBlC5JIKhIyrhWfogTCxHQbpF1mMAMXaLDjCFGJVURvZx_A-97rSmT6vyQ1LbqAbUs77uBuv6AdFSNDfwhwQvcApCtk30FTBYtZeGqm-NiYqDZupK7O7vypmuEigtlh4-jOUOSuJ2vRf9QR7SVNz7WOrgY4W9BgrlK_lfbcDlRji5hu8lwyRVUbQnvnzw2_9_gh6H0c21Fq66g2z7EgKumKe4gkJd9iyVKKpuLZ6WxV1Qpgx7f5iE9KrxaqqjxWvrLA_CMHY3eohri0d9KeXXLdNtQ7pVzTmnRuG-xze1HVMbOh_5DMn1IDio10_Sr7s_kebbnH_IEMFmGQmzCH4BPkMSHngeQ3OqKQKfJRonBSAmIDurMAhe2BdKrxc4vj34k1I7ZTIcdpkZgbS4LEvKgC7tm1kAK7AWUErugIAAcEFD6hL8EVqmj8S5AOwXKhUobdksAUFU0EfpLRlbyXbo1GTDn0_t90SCm8rXyzRZ-U3TczeGh8452dIaPKFaIg=w1366-h663-ft" >
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweVptaKD_DyVb8J1vHOe5K8WSR3pPIp1vubAQGoCgwFM3E62VL6KGbsVD2M90g_8Jk4gqc3hwa26Qxa_WhgS6VGXqJYvqTzt-B8Sxf_orBoKS9Fkeia356DexZNKvx4dgmgLs5zemDZGyz2vvghQ_rwoXpzWEOT1zf_AHf8Q4UI8ICUNf9Ib75TweuiD31F6QbaWdkzcV1srpTMfSnBUM2T02uRWmMPwcXtI8TFZ75vIiAhwUEKfvQt9K22Z4PQiFWHt9E8_qA7ucJjQbNUXTI5hYxHPG3qeEpUnANMxqtYK7kmo2J_HfeoKkwfV8hnSU3Z91wFLInjkSf6QJtVaVsO7yt73iJP-1jBARurxLcI3I3AplszgcmCkTzTXcTS7yMxgsvY0IJ49cqpEGy4dR76fXjJlW7ZPQdMjV26jHNAcaxBRjwnxHIHsQ9Li9amDIOEXsLIH_32ViG3qk73J5wuIc90MKHDXlZkbRH5Wsc5Ej6YI10Sl4gjx0Tm5-EDeVnvVha3nPXf2mbnkwyLr7bWUmkOqOWHDPYrk9mYENFyqMEN6HZ-qQly-dipcPIRIDZ1c9Crjb9o3SJ2BaOKQr3JzuYAAOcp6vg2euITuTmnSxa079sWliGJWcOi-_oMlqwMSVQsfxpVMIVM7RJBVkg_3hmpvJ8CI7-n6Lq6Gxs4Ax8uf2bzgBGeLoGmplclI7Bcl_8NlF2fntU8AYXQPYpzI5hozBoRDFD8=w948-h663-ft" >
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweWNLzJeP4-KPOZPWeH75ps_zpBI7uwMBIG_sbK2Q0TMBnKc61_YPpkYh1_LGpJHqhHmI1Z-IR0L1Q962nhKVt82i6KFzd3BLFtTKeL8xLS90uNC8-BXzxzarCdmIq35e1VgoVF83BRi0aCe8dO-5UugQaBLy-H-8fXFq2xYnOc9I3CfNAHPaoUER2tQVklIE2UT1TmpkJ-ooMSN-ZIEALHPQHLl_KaiCixbhQA1wR23rAYjSO_kWuIhYklZnp4Q8-bvEyu_b6eNnCHY_x4D_8VKoRxF4HVSLEpgO5luz8uqVYX2gd1AzaPdaDL78ZQH7n1RK0ZnIw7YNO0bknH9S5G3GcaLzkbQLfvgneyPvjeSSblmWHU7y8Zy1YQGejT_aAVOj4bNHuRiowc2DvCdh0EOlRTSFC-XqcoqUC21GcPIM5ffWO0tn12-JxMAAMuHFTJwLWZOa7bJFV8nKZEMWK-qYEhaY756GX9rd4OkZP7tO5dVe8OZzwTghjyaKrYjk9fCZAHNjQuw3nhE95xCX8DFhCa_keM_ciHNMAY2r7QppDVSzhUy7UqqQwA6coFMcQnZTd_mh3u_pEH8FFpPPYM-IIDmDvkcGnBCN4zt4hNXf6RcixmX0HErr1pLlWI0qAHjQ3d9PYu0uCD7qpY_tDKEeUtsoA2ip8WCYAHu83IZoHa4LXVodY5_y2EHiva_5r0twfVOgULftFM0MztytdujPFh5A0UZSkQ=w1366-h663-ft" >
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweVgI_XuudkJtSWSsoKab57zTBCPvVQ7Hgx2dEIbsWyHfyQipxOy0_OZfmK9qmPd5GRnVQFVDe-ycpCcP75fHeWeThcy6eoo5Vn3VzwwVmXgYgRDgTJhsQly2jRWufusKhXYhCWk8a4WPfIp8Dml2ekOUk9yACMWkoboWOWAe3e-78y_9bFUOTERmaCqYFbw5XCn-9Grt562E0YjNCa13VQLEEdoaaY8IVZ8ACIYZ88xHsA2aDAP39SFDnZS9ChU4_IgdiZETDBiDQ-Kz5AH5d2VR13KajpkWP0sShVV1R8N36qmqi9wpRTYnKks3n-ZxBfJuNP_nZUsJveCbQ9-HemXp_zQOKnqNoVqljAF9q-OexnDOWLhnUv2-MwbvCsbV3eKEFjJZ5F8UzwTqdaCpyADitUbmiK9E308l_O4HDOaDqbC11xIlSazmfMupnaY0PBmXtBefqC1Rn7XkXgtWOzmb2jqZ9JLWAGU_UvV2aS06t4cLLDvyoXq9TZDB9_j2aBDravF1JwY3y7xW33s3n24yqM-OceoickIsb88TXwgaM0GvJQMVpBNhjfdB91rF3WV9kKiVHzX0ba2gEkKuYZGT_B2yqhR9XnlUKxqTT524v43lUPFDfubGJ1aMSp9SrmMweCq4-zWLDdV_rjiENjrTTb8V73eRKF0HcrONP-VZn8-Rtz7NhixttuVppDXtlhG5lzKIshY8tPTwjUJid1kLQ3wvrQ-DUc=w948-h663-ft" >
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweVK5c2wavbj_Agn1UG284sc02zflnDUFXdjO4St2ixoPOz84-hUdXP3xNCRRfcznngzhbTJcukd1DewHosg_Th2nDmGs1MhnTQJUFTDWLqOtMo25tVA1VYtX3DHyHyQQ0UxCK_48sgXBaX9yLoHT6CJcZgcNrMvStUTjT1FQNXrbpOMoELf3goJxvOFwjzlDcjC094Tfy0_mP7udcDk9r62h7gr1pH-HHv-rxdPQjXdQ9A0ZyHgqfZhGNqLJVIVVcDfgEFx9WNr3AoByDlh0iJzZaAxuSuNvG288i5vl3-O_GHLH7phFK520oaCwlCU-FrTTUQD-IXjPw-lOZ9yNnwS4bSy5YEjhTliRbDTqS5E39aYbYGAiyxyLbGdkix3kJaCi2H8J47TiimtFO_0pmS4Z9zdYrz0cb_cHdufr6vxxEFkxFKoGlFBr08-OrZVns0BvghQ5YXIMEwiWrYa-9e2s1atfFfPsoLXZRRM6iPmYbNb6e1fr56j8cn5FTNGTc2MNs2_VAgkgGzYNGe5QsjrcGj3oqEzomST7eKaIgdf5POIRpyaQs24UcNLAW1k9QuvgBI3FlnZF6H_41hbadpknwvfuyWqxCcfHJrp1yw4BOJbZtIe-XgRpm_aExqRwWlWIijDAahWxylrRIuM9dxmJnL8p0S2AQBbIuZ2keXRAQPVzzbvoyjPj0tZDnz9LRibvjsN6D5LQGmYlgNHM7A7FzVhl76JprQ=w811-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweVaaS5KJW6lUJucy7N6N5fQKujP5lAdiEEGm1kLLpBiwHqi_nrGXvwOr6OI3ub7z5fhjoV8iJb4R6uo4tkRWRoBCmQV8K66zt5tSYIryL5zkf2FdzHYCNCOEUYlSyMm-OEsw0-PG6H_zLeICIf7GSImhHOYDwtghVTDI7u7-kItUxs0IJbjfWAoU0gcvylmrK0euJBff8WET3ppjwgzWZ05dIfKEjCiXrwjbFoaaKwOY09Pqj0ruk3lqkwDkSLD_KQGPt17-Nll4AlPdjNj0AWOEV44i8VAPrk8-x5Hd63qbiQAT2B2u4bgLvinpGbSJunGYpq0w-GOaEeQ-V1nyKBJhPMt6euZcZ8_wTZDld0QXyXUv6-DrOhZq6xsIZ0BUFVcgpOg1jXQV_Tre9kYA8rVrK9N0yTdRxf5OLl0GtiHRRBh_KxsZ4yHmxw65wS0FS749TNJyzENvEWoqrZFoz2MmXWXA_CyOvids-LSq0KQfe86cOUaeWzc4xnEHYNpAmGoaO5yR1-3PaP_nC-HupFuG9IFr_07gQ0jpgIz1Sdrllv69PasLh1TguyxxeQ6Ev50aBgHyw1fAtbVRP4l2FQeoyUfIAqQJ4x2QTOqHsDVTWVXroVdnGNz7Md3HlwMP7BZa52ofQ07MxqNhv32QfqXzJL-E70GLKakucqLUmbZdkQC72n8u8YcrYhR3IScTCeh-55nq1SqYkxPCJjGt5X4sWwq8waLHMs=w948-h663-ft" >
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweWwM8FQOxGQ__tq3f103OLElASRqmVv2wiK2_FdNbSgTdWAbLA-k1MxKx1NNh9v1U7uvxws8iyD4hZPbnRB6w_QNg6r6tfJklds0H8md3fHMHZAOAFTjLxEcrPaWzi_G-1cjfHnIOnmteAL0czfBDBwUlSAWeMrryw2VqQYn8i1lrgkfy2ebD6IXDGl36VqGF06faUcNRflaqD6uqxfxzh8NldcXboIdy7PRF68QuI4EFYaXTAw-ozICZkUIXrfjZG0B9gtKfj2xYshsZ7LMS1bhplt6ThLfbTXOaBx97n_0hH1gAWS4sZLz2LNw8aBZhzZj3YSsvisevqM_fgEVjszH_vhLGAMlLutOtU3OehrgjkMOkI-aLbOvJK79PkmS2HBBy7HPbbcEOemTyrpTnnRssDWMB12ZT2x8D4ig_xk4XAzlL3GGPg1pbxoHHAiQdmV2MfsA6NSXkcixnWFSWzrdjVQu2dx-fVo4DCeFMb5qkQVjxmJBZfvsL8ko7-9uVkKnBKsTnjYoUxpdBwtvZ_DrHzHq1N9iguaEPR47OM0ym-ZrHgrvn2k7IEKgnuggnpb1-T_qIaRLLbhibuCM4QQecdpTS2duLEu2-f_t2I3wgMaaa5_iNd_5MuQnHWuwAq6akqWFwOaY53zXFXs56SDDoaj2TyDGMC-ohq_ZagtMS_jYr3lLz8gC9mIH9sZjTcr1LjmcJppcXPZbltqBuYDQ0q9MzEW05A=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweXi3eoqgx91myn9zYKgugdvifok-6UEJcsITMft1EA_LRRO4w7Y6Td58RHo2WnGGNzFQzmI5bSI0vCzHbKM40klHZlkyu5L3n35u-HkAmNtbPTn9lCy3kHC59pn1ko8-o670ZZQNJSnYnNvuYwnfv-AYzj_exM-_Lp-2FM9wtLNzUM29_oWv3lK3t9pGcCaSVTzBS_2QkiQpERXrIHPW8-pEjLvL3vKqusGobh4hdx8pn_ZgSG8vY9ScPQlHEwO-8-9gRrNEOdJ0v2wi31J2Rgyx8xNXGEWCInkuH66csm_SgJ_AWrJ6n5dZdffKqOr3ttfN4CdMxcSdNyEXG83mX6eQuoX-FAUAspsUEHP-MzS64uB3CXWxdmqjQGw_wK0yeOZR0J9XICWLCXyeCfjfGdzY89Rt-yYJIC0nH_gBiLOzm5K6e8Yu12X--zGLxW9Uk8PFE5Ycav00boxMb8A4mQG7oQIAiiBuWa6VmrWK9MMUXW2j-WK39yOWMRtpsP1su7aaR7n417_L32KSun1DU-KRQFzrVNtqFH2Yf2d4jgRSwqf1dETskJnp4XfWMAJVNmPfjyMj5Z8NqhCECkEBv-9OQuRzumgttpvhnB0Kx5LNjO8QeXXZa7X79cxPU6UwENJeEcPj4xJA_53NaD_k7Rdu8OkiromE4xH7LINMyp2-6gRngE0apwxKE1cwaMf9u3Bh-9v_q1AzZBnxzYAre-pWIrEFZQhiv0=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweWu_rqEZ8t5gc1JWlXBPIV_cEjI3gfDJ1-UYo1DgeMAJvRPo9IZZz1LX4gbIcgQbQUZzQBkeW7aE6Gqj9knsL_3v6ZC_qxrjkL9-kZQNdwAN7Sz2AJhci4uMmVe4IjBlijYIyP4YFyotEffLbOcRFUbt_A9sONKk4py-IoQiD5SvXalD2545WHlowwk8X76Eu2mJu3dYttKaZ_A7RSi7sQouXb82CmbEx6_FaHiaUZgcC-Xzsz09b4dv7iOeUX8xG-RcD1aggv7CvKmBGZW0VfW7F55kRY5osaBpp0BOLd9r-xHTGtEajIB8n068eTFYZmBIahklJkKRdoEP-0nVWMEJ-YOu51tfWRcZJGbFaKSAgazUb7BM7lAl_26wuIi5vSTta8wdHVG3XJdeCEN54mvciIsxZD1T7hmSHhVYDN1nxEn3ujCm-oMXSWrvnYo9QfnrLOlq4Z23iQZdeScqGgV1uII78P2kdVQHJ-64ESXBTbixVjwA0tZxwqcU2qkQmt83dBLeI3572gWPkF8GCvjImFB94wwMP_FAAh8huarqyKwqloYU3ktIZM4ULiN505wASDwIhGZiEOSG6BM8KPCpxsiDZhNd9DrU-RBDGTEFAHsKgVwGoI7hS5is7jCw-A3P6iFRFGgbk6FjkPCHbmeFxVHyefC5egM_EzjJYQJHWP6PuxqyH7mG5Ep2i3SgUC1BADoFmP26m4lqSg5VK6LmyL9VWCUQCA=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweWJ5h3W9woNOTDFPI0LLDjjcxcaNWCPE9Ec1xEvlo1vjLMf33cw2Tca6tWpsKgUUHq1S5NUgLUr3Aqk-0IMLnKruKxOus9dhKPaZTS24g6QkbLXpYEGTVmpIjSrJ48oWsuGaMNjwTr7f7-qlkDiRqvfCfUT2NQpS0Jb7DWBmH0vsoQNjkFC7dH3fUvjrxP5C1L3BEVM6zWpnPmo3RYwTBgULlwZSSbE0zvj_gFpY0_fHqmRkbHId4P8oro4tL7ks9Qtg-QD0N2SqIHWmlb9kInVdUfLjK66CgjiDhSVTM9yBLYt1qBGKFcVR8AfTiH3TXg3nvaxAuk00JcwP0ZKDp4b49TsJqVYF9aNGFuIfWQ19PHBzmjaR92aObuFyG6f1oGfAIEnF90XldvciYC2HfkamVQSdPBUYu9ieRlv7CeXtqOodub2BjfBg247Lp9PdMt0v8R_OZcQL0ygESv98yg0OTzt8oXOxIu8K4mX_QPWnrKqe8pn1fy_BwsGooEl8elx6vwHCYf8bKw3k8QV4eqKpSFagdkE4Hd9LKJARPcaYVPavv3PQ-86NQ2jZArIml488ZjJXeGpQJd_L-pi4P9vFE-RI4M_kWObhw9mO-ugFtuuHDINxrQ-BOcBuKbARSYDKOCARpI9_qPPSfyflLFfhlbd3s-EixG7h8TdVrg7ZX9kYbeIe38OQBp8ovSj518GArVuHcSlfutFHeLg0zpKcYMaKVlBxg8=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweWvCrodVvOLsMmLQXL5PZcOmuYoAsRjoIiQndBTUHzdR0T5PXmWZs07XxvSyrfvScofJIqVmKYGCdWySeBwOeeE46_djWgzTwxXhPj-TBlTYJ27Sj_tF5fX1vLkgIGH8PBWo5Uv10UnDoa9M8wQsgMOz-p6eQdTnp4wL2oX3JSMprW6Ks9U8Q-3iRKfz9k5eDlyqlgiUhrhs1JrKzru1s8TZgydRxfEdvVZ-1FNa9iXmrBUM6BTwxe5v3_mnfML0ER2YubMahpwSCcvF6G8AXgjOGPSV9Ri6XmmBwkk7KUQr7TYvffc321Mmrx0frdKS9ivmXCPUCEFYzpo9ahAVFt3zFzD62BNxJr1HEQNtEK_ZrOW8LZ0yy80NLfVEwbDbTvOOa3QQSO3HHPxs4Dt4iwUZayIasLwL_DoLLQCuLqjT6Yn8oLjzQHbTu-JX9wYOsNOlqhwm0fn-ruwShaM4I7RANXpO9wXqU9d6mX_wDAII7rvqLtDHMn_U8cw38jvhL8Q6Y-5HZPXoZu92q8Bp8a9iZOimpiq2aL-j2A1pnbNpIGGmzP77Vz7pGZ1dqV3FgbH3kyksSCbpfzVp_5USEqn5qu2rMbInz08EwjX7SyXEBZqvcA_ROM1j8Yoa9pT6rrVIsR2AemSPc8Knh4F5DZHEyO1erQZwfyFDZghzGb8-C07AmkGrPo5_cFZC7ct2CgQev15kX29rsW4pkwfNNi52m-QD2kX9gE=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweVlCLxZSd1ifJ-Z7LFtas_HfvLjIM5uZlN4B2zI87qfJvk50ZIo8JOLkA8tnnRTq2j4GUJqFEtpMmpN-7QhfhEs0IJI9LeVP0JRakgLRjltvBW3n5I8V6fwUdxkRnjDA54mOpscq9WS-BQzoaqSotFCkL1OVXqxsMCu84EsqzyCXlEQob82dHRMaXJ95Og5TMXEiqpdyeoHHmv4nDJqg0wVhipzvNaoXIR1BPADIhe0j7nAzuzGadSZfQmeDvj4udg6hX5W8QGA700dca9I6gFmeVRDVTEmJlKCmnvtOwIJoUL1lQrWN2tC7OrD5svZeg5mUY3-ZpOAqiCTM96B_OCBjECI4F13J3kT_D0PWhvT1yUNQRiAGqiFpEEeutj4mXwALxWTVJN7gfed1AGI8uMJzi5qMVqo4md2Ac_JQFiwTk1gEC935L-zWRoVFn38_t1trzgYx7ULxg845NLDW7rKlSiLjzJhZlkTW-l2ApGzn2Gmii92Mba_dijdNAofVHIwiOL2LZDV1FK8HpcuKUISpRZm-A9sUmwLKonFyXob5MR6dJOgjBItGVxBAbdKAqkl9-TmDj_FXB0Z7qZEA48rErAYJyXsaidjbW3VUwd70osLnNiDEGRr_qch60b1FdggsEtOcXLALKbGcUNXNebZ3kIO8tDlBK8PVI2FmASyxAVz8GtZ9Vj04r3S3yBGoemRE8uVLxxcfei0VndRO5_dIpRL1Ig-s3Q=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweXyIILr-rYpyGolU96W515SfE1Q4Wlz3PIsMdsLMIWs3XEQ6gM9fFtQU2lMyKofEvNj4SUOEYKsvNBLEpU3U_5N8SNe_2mxEm7HzJeKSC9VuLCnyk4U2JeB_F97wClQEgStPvra1Oq7Qio6sk_SIspr4tySzLdBeOVZe6T3hdVvoniV6UKFW1Xbd3oS5RuCySDWlK7_yaAqUaWZBq0cPBwRatwEh_0BTJLz6vX-LTrfg7QrgKxRj707IVAyx6DJJ-WfS2znhJhb4myWtHa6_NcGP2XLKEdTg9Z3jWfqsevfRvTaMNWtltaYd353Gs3OWdlQseZBNwFRCEcEiPKT0IueShRnjAspl8IFLY6qx85gGTn3dPp-JmpfmiL9Wmtf4tPzx36XxzG9AztG61M1ZTck5LFvE6fBIPfGORrJRef48ag0gfmRq6V2sCTYmkhVWn_9JLe66bUJZ3kwEGbmrrJbIoXnwhTmM0uYIIzanluTZQoNnQn8XUiCjVD_RDgbbvtXI8udhcfTycVftpFpLd85HJqyAL6at1rtAhW-eP4bmrcdgTNLSAhVLtYhg_sTKlVfUzttGHCX0w4qhwRLvEUoELpjQnujASGRR90nAtxFudgM1L7y8PZbzPDNgcGcpVihi_X5UL_0JQBZD8YXfzBGWPtfWU-U2cWlqkQRVmUaI4I6RvJRLfKjax7eWmSDvjynHPizifYbEfJUKeoGaWfKLIWGtWUmFZc=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweV3mM7kF0d-bITcB5jngPo6MnBZ2BIm8iAHoBWUJ8Cz8_fR_HHMtIPG2fR4D8qgt9YBbTGeTV3EINKjHIowRYy6ujMGWyA1panJJE3JCrE5sqZM1RqhLAYjjy67i2fm1Udy8JI2nW8W9I5LS7ygMBENhFHqVOVE9i9YnP-9aXc051LhfYkyew3OrfD850uIbnUvpH7AAI-SyLxfo35NmFdMCPK45K-B8H0Yv_LF9ZaQtN0_RBHsAOwUyNB1M-jiVLQWGdehE25GWAQBzbKKbPHWCcEdn-cL5gPkXDWYRodnAjCR3aS2mMHQ8ido8Zzs6kp31zmFitVQmFnZDpr-UedLB9s4VtJvqb57YudkLeD1-RoG3yX9NXDALRl7rCSQ0Oj7mpyrE4Fn_Cv-nQj1Wa2NMRvihjPvtDgyXatduSj0ijEbFv2l2Qo96Tz5hqNWCAhga4qOJqr5TaZaC5y_bLVknCsqNR0896LGG9KC5tVO9I6rhvk9giyUOTZmn7nz3skMUOqvwRjTx1lfEIRJHm71E24_-K53F3iHXY6OGY0Njb18GGTa1MzHF__IiJcckUUzY08mdbDE9kHprgZD78QTeMu-6NdYqLrV-YCb43hW2x3kxPOzBoTUatFvYsDhVIj0RYAeXfOvTJVl5Es6JKEGT38FGcXH6WiX5YBSJAkXB7-glzM31lcOKvXVNZmW7xh5N3WIhBZ5zidMBdP5up1pQHfwLfTIDTs=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweUv0zl_jDI4Ijt0HCLm-KKr2z03TFN6RLM4746QHkeSSbQhlAlQdFMPRGUnlXAcGNj50q5XvU7sWDFf5qZBSMS8ZxGWZsMd3Fb1uDG4HtKgfxf8yFYoBvGYhYggxivgmgea4eTelZlWH7LeKELCMb8NabFt7RiVkpOsT2xqiVO_ulJHi5QLbhgy3ZEWA4DIsxh3mkNPsYBpGBze8CbAZdEZgdKmXJHTPOpEolyIWB-thwqHsUCUngWq5EE7yPeiboB5TVHPiFnSxeD3rS0G2nf5qjo9T9Z--fB6Unlvuh9_G-x6NAz2cZDgNZaZ_CPW_JPf1NBpvTukkDUcINI_LVcjuNWx2iL1Yf2XeAM4LHrQcMq0DhgMpgqTNx-_lws2JicRdmzJub1-T_BI0q45KgW6rW76AL9ap6VloQTXMTcfBpcz9vFhLycBuuuQiaHm6UtZLJryeguJ8P8x_pN6SZnNMRd7BYop49F1SJPTJzGl83PNwt4eaWsv50iIKTQmzPA3erODtDWTR5jYRU2-Ocbcy8iVWr9_X8H4nT-3LHa3xU_HaARxEADiRtS9_ZSjy2lHOq0sBEMZjzd5TYvNJ6Uag3ZnYRYJf3IFNGZTMFzCMbksZlkXP2YfP_vtWWkOn60tCijqH5KI5Rl5fb-vdG8E33VQ7WYucLbmxnju6WZzqhBOBWjHp1syoRBBb7oSzNYMpX2MK-gutMiVSpDE7KLAjZlCJSTjWoU=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweVAn2ZxaSUp_e7JVE9aJ9MxaFUs8bSsAn7Wof58_WaEAw8BikK-rur0l-Fh-cvXTbpkRKSvbRrnumGCrS4y1ZMnIKc3yjIZ_NqIBViQXlbaerhz4e8i4gMVf6u_JrYRcN-BEll8cnjB9DxxNQHwdhaHucBJgA4Wmylf0ese0hR0hcqm4lbKwZzSSRZrZoR_9th6SPYz5ZGxWOcyRCjCq-WD5pXmb48QKMEXQfhuMHc-Hc9L-JUb--8WH-BaWgy03WEGHBPEcnonxa4EE5aSE9Zrbc5cKXzvfRolpDwGMXTGO8rnsCuzCX4gbFPOB5eG_zSYGjOS9YyvOc_U9VSOj-ZHXNjrrLcMYZLv4m2h_kAxGR9DL0GSpas2aH6PN5ThUErFQaoeICW5wdtF4geNekGU06kuvmmkdg-e3JPmDcvYaen1ny-2JFSh2AMHniOx79mCWXy6cU5OZIe-o36sFRu7DNtFX1Xoa6HSruYZoCGPFZXSiafTkalZGAi1bbvC7KyeOkNv1eQkGlAfIF5t8Fe7TzParJU3b3Kv-1z-2ndhe3P5k0hhCcueigOneHJdaLUXeUOBk9kEg0v5Xasn7ju58LCxxEkqmugguAXul2uFofyzo1SKaatFmDs63MLKODOXAA0x4ytfCRk7x_5T_WxT26p7V2vbX83vZFQAkhZLmfBFCS9c5kxOqUmLgkKgvzNj6gWVzRxdmbocqu9GSmI4LOFmAltc5Yw=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweXx-DGfYmwspfgKkSJ9fN6nHzV7CFwHOdnjROdxkcMKxUOgYYXY2z2xvFwhou8gxRXOTKteyqAvfbOh7PxFTcui4ld21jAvMvdicXIstL3kjnNtxVqZCqid6E5WlC7fKo5Rx6CEWEdCUoAYderkZmxlPCAgOoFJ6JLb2zGpkQPSBTE3nyghFeR9dHbYWriwkJqtFmm0pudoGDvP61LgXZcI6LtY2cGbKKocG23l7AG98snrvBZ_eyfpMz0cy4lGHLtcVwpaRUEK-OTTIXvCrsPoz2wgARXkZ8oKR_M92d8uAhPMn_YykqjgofXX-5prT6IFd5WlzmKXnMEsS2fU2-sTce7HN0ZoTt4j8kvoV1pK34Bf30UiIwJnNv6v8NrjK-OUTDbCPll332rF8SgBiwGGjswnxIXwOWWu4jsow9f4TYJMQyhaYdzzRKo3QeHzrVSQ3NdNvLbCp_1GASC1vCIUFgyk2-GFscy5cy4E1gs80vRPrJMzAnPTcPepaDIqXBFw3qaqomjVq4w-sn0lx5RzKsXd7d-IK5A1sCPLOic6IN_Ej3x2hZ50G4qHw3k-tFJEAlMB6SGeZaNkCTjvxZPv2Zlz1K0ma14ahTLoSw5GtmsY5J7dacDlNYzJMQ8NoTCwww5TDUUsCC1SuHQ185lm9VQVwugsvBalYnOpfp1WztWQkyfhB2SktKHOdN8fQperBGj20LI7L4T6OiLmHv8ejeB80n2bPVk=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweUVAm-a_MNBHHUOD8NT0LnHezfSBvnuWk-oOsyGFNJToaRvQNb6vMrye6hoe0UXEdyY92vjaMOnW-QQRYlSBItVbESQOesKQZruNHeNDHRTLtW0f94lH499Up-lz8O0nSGoI4BqrjrRt6x_H6OiwMlnRgtMPg5KNHO65zGAsHUClSbdb83WwkhrwgwxYRoUbZnK45rlyoPk1PN0VhyjiDxZoFRjSu1lQRkpePY8odwtsYwes2A5Oxl7y8XPXY-AhcA65zxu3dxJigOOvd5S57tYSeQAqZS_74N1s3skRAA3m5rP7S6Ux2OMZ9XHnw10jcb1542dAIWAslknmQHcD4GkkHSZA8IfjumZKfIOelwIr84wNb5PLpzFW-ZX2wUpJJJM2ESw17E-g0GYPKddktTZ4bzHEcAMwYzuyzdH3fU2wciE6tcZIXjLNlfn0GdV1JAgPxtpM2q68bdJ3ISuMFsIXG5cpm2MiCG5vqobFIlMEYi8IdXA9ovFp1HhMMiaaUSv2Y1IIPbKOluTAhYNih7k8xA5bP1oVu_GdY7RDfb8hfp42RVpt77_t9e_X-oCjT1G_zlLWqmncW9pEKPYKKCr4PWPbuQkGvHRTcOsjEYZ4AhA1aNkb9S-2hYejQIgXvWETVYrtR1ZaZ11x7HOxt_dAy2ZXKx4JwrXl1JnWEmQya1XMGQvS5DZWF8efK-pufJ-bpnLGG7QNn6WDCpg2QQroOjZvNuBu1o=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweUSUNFlzEwI-KyK7_kCBFFhcm2U2GmNO14mR7owlK4e0ZO27NAqH_sUlR0_p9-D84ktXiB6eBuSRqCHg3cET-B96ICyOFw2tXAlcS9aSsae3sJ8jRRttybgZZ7f1WPd18T5mVpF71i6UIhyu_k0u6AYLcb22vIxjhz5iFrW1GVXb_atcc20kGGiWtkFonwlbo4XebtSx_Eug21180wNQILiFDfowA44M6sjJhwGt6K385JhQMRSXIeimDKajGooge-3gPzcXNoKUuS9oDyttXhv2IKyk8-9CBSRAuOrFGHcL0hXzsNl3f1iuXgyALReW-UvLoUXpLXtSFJFq7WCie9-P3Kki5RL8cS3qIxPMYj5zselZe_ryyOUdrh9A41EeMe5lOlggK4a8H7cnZouspSksPYERiWaTxRUEXhhX0jgYues4OBHazd__M5YbUWR7gFj4dSuinrzftFx9El7zMgPFCKZNWd-IIe9HTJjjkFY-6NMa2iLvz5at_Fn9YGi2uOmfxWXwrvGvZeEDirQJC6AocclnlqP-nLacxEMArA6HnEbeNtki0lPJBeJGm1ui25TYVZ_KzhVXBqpoYxCSxSrCB5g-iS7ENB7KdCH_VNbjb5dJhb_ukKQMlm8-IWDnkfhgy-t1AyOy1khEvvld4u0hOIEReVYnvdOgseWddoji7R1cnJXu2bV09GEW9Tc6sBnOoEYThk18gykzDTgZ3oT757yRr0aSWQ=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweXjLdMGZ8WX97MhsT5-Cgttd8t8wO7ZeX86NtRaa_5dWY1Rrhrt1NHDDGb5QAvRW5k0PMx5xDKa0INrsT48Me1c0eLL9S00IrT3i1T-ZABroTKzXP3jB5M4_4-wiY9EpEZs0wx3gcbWlW6mZwsQXvv-n-U2yQf-D479pzVHovEPpujWEBXZ5DNMfaqldGO0J1GYDM3M6aOdApD7t5Srt-oDElqubS8r3pmJIDebQ4H2PUsJ0Hkk9Ch4JnZ01Z1Z6q6W77lPqE6E4Ipg0ObFqw5Z-wVBPj2C_A3qZ1OZxxBAzG-t1uyisMW1bDQZDK7RsWrDY8T3wH_gnT4AQKtKjPF9HzKh9ZtuNYgrTXLGuRVOWea39KAfcI9tX1Ej0ABXi7PC0f9t1WLLS6tWAg0E8Xm7wRXJ0arkDkgsuLnE9T2PcU7U2ckIy7DgPGlelHdgcWKf9yuGPjVwne0vbM_J_ixPOhpfvrLhtmyccL5S4DJqSSMqMQ1wXv8P_ARb3dpYA6GH8369DwjHAprYssIlI4UsVjgAdfcBUpr7xTOBeMQAJTWlnrYcaXHmO8VwC2DrFfXE4zK5mawT_vsxF39Zf7dp0cxwTyU69ltq8CjkN7CuQzNJh4aja-v7D7dCyijRYNyI-MZr-kdH5y-cqylCqWRg_eKZ2JShkjUjWuSQS-2f6X9vFvfOZuiZgt5Rqw5eimq5EtHlosBMw9LH_TDfQtMsC3GgfVxh7w0=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweW0x_-RuzZXaNmZwWsCUhx4l4Kks1reAjzBJCYa7xTY0z-DD--ZvMXlVGU1S6XyvPyNlfXjElKAAq6wtQY-VB7ei1uxCARRoe77z33EQl1a9Eyfap-3kOUyyn8bLTDO1RGL8AbmA_ypBwHxxZS2JKP2MPors_5ETYBp-WWUo_VPBjp41bch8iMgAPNEoyj812XZ5AZJoThjUgnz_1iq_BqqPTrBFaL9EMcct_4buTRWp2y3M2d5Izm1pn9zNIWQct_KsEKM0CiFSLzslPMM0z8bH4hN6qGlwOQH7wuasPKSfpwpE8UEIG6WtSOS1m9w42C9bTRHjP-oFQAr4l7xU3OgGUsT7S7_mefXBtRQSRgjGiq3muDmM1JNACOfEIE0pbzpJx_BY9dQekufqE1gl7cNPhPsvkGeGR4of3WHQ7I2-IST1F9-fwTRaxVloCN4ASk7ihCcq2K8XxNdpk1lG-8UfcJxWe7vbReuPmV4-MQrQPPDFcb4_HrBMBqnNVOYhzR6kGy8Smj9cLirMFF2fw46s_oYU-Bq5Vk0jnI2-RLSaneIvbzeo8XTK99W4tvTeD8KNOqiP6RauDGdbag7TYR9rx3V9JktdT8ajgoPpong-fPh3SrHEd5TvC8FWiLFQcn7pYURCHXy9ME38gNFEqpj8M1dGkNsgfCybgXz57npII9H8lHkb0QrkURyS771LBKS2AViCgWK_-gZoPMBe5Alk4L15t5h4a8=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweXYTfLrv1Uzdmm9zNYl7563RuTXYN93kyJfZuzo86iBZnBWNpRze4nR06aEvm2nu87keR-v19tJTV0LAiKsoFh5CgdK57Kn_GtgVBQu9mHKoRgquhSorSiJCOiv4eefOAXfEZj4Nb16sFD3Z6iTOfkaACXwwseCslMrR3SjBEL8YbY07NlZZGmbJMImG46WHqexESSxHPUujCXyPjoUZV34kvMUwJBop3cM_rrhXPSLj4AnrK2jRK3y-pgXDRpjKDC9Xi6nzVjXB9v0Js3Hxen4REbUVtjQNfJWoz8Ay2pceGPmGgot8CclU4mJDOIKb3ZdTt4TiblrQkxkmmy6RqCj8C30_fS6GH43rhnOEVNas6ZmgZNxOythz01BagfY2Frn2abXDXG0kcoMR3lpkMywmvTsQpYzu2SyzOlGP33N5tovVAoTt8IHWb2XzakuE1UeJUGVXNOS5N8pO86iLWuQdKiA0jTw5mvrkbFszBDGrUZiJ3c9QMPJG5GBCCfZT-WUlA99dU3mSDcWXK_Y0hdVD27LB1vefjIgWnjva4imCI1ZapZGJCYLhiDJQEe_Th35Vp7AZUeJXxtFqy_n2eYH8oZzP2t1DgAtrZXL6Mj7wf1uxs7Cjol1ZaiYlBYhoCAXCZawoGnV-aphLVaqr6KF7WZ4yfozy-Xvjr13LK67E7ugwFDpGbPICzwsOpGrIiUE4CYAs1j8HTAxp9kK7RCfHiGvlRYOtko=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweXLpLcXXOeM-srElN8eJyWp0DkdN5UQdRBgzX19tG5FIPTVKZL0JcCpnTGk3nOLFBMayi-3npjXHrYW1Cpjc1N_75u89tkM0_zHVYoqYEXXVuja82YzY_EUFUmbEWEhELZiP1dXRTcPwOWyPM9vMKK07xXHHhCWNSSrWILfdav_4gF6c18kZAPPjoSMhOjR5WYB7CWiZk1x3yQi0B8UqZTLtqcUUKMuRaar0AjbsLLyY3ysDTHptL_jHYm8SHlypLm1cO_OD3EIedApCIUttWFRt75jIplqILonffrfHoSKMJNdW1GeBWicMOvq6JOuaNSMdh8rSTXJQ6yjmqwRwmy7YXFoe7IlvDDUvVMC37-3MYMeIBfk_4cYXWQVfgqf9RDiFWOVd2kZBGGOoSnOAvOjH8gthRUI1-mDVe_lDBIiX6FhyMX63W4ESOuYTDuQIzVJDegXU-uq49-Sdo06vuqhE4aUHY26hM9dXNjoQqQKX5LsKhn1YNuIaL2dYw09zkGAXHevBq5TrHweEEVjuMQ24TvVYADZIUDAgFphbycYmwUqKMXBk4XAc77GE5CTvxHrtC5MS8rLLZCjQuiMpjHCcugYA8itMJN1q3J70BjSHocgucHg2EBE-2zQdc_HNSWG0AcD7auTIQssl_YRCIcgN1unblXXfFjVOAbMFzoHrHHiBjhEHsY-RjDooLNKQ62YjJmWd9R0j-wqwjjaJ9nc6UH92vfKACs=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweUUh1ueMwdqcjOHgf97_iqaR4M1Dc1BxC3UcNDnKuE7tXZ7loWv2C0HYe-88IEL_WAsIe17ehs3xBiAwJo1_L-54TckXzF4haUuTntCEbvwSureDWgLXyXkgGPh39yDs4Lz5HQOoklEnQ22xNTk2TfiyWkjlsE3mMFPXY-ysq8voP4lGBN8heHNUB8yXw1cEnAtBVFXO0JQOtI6lwoI5yYAk4lQdkkFiqY1-dVWYSaNDMFJrscThfBQSCsno0tzNGlvJVj7tTDfNzfaHnRuqk5SnCCA2h-9WRWkRS4m00yHrw4lzvvtbYlqCbl7rLSslY4_3XS7GGx2tovSCwwY-wH695paR-Jj6DBezZfdgsmYvrxIz3Phc2jlJEzqlS--WUbFoRS1FmnC5SUKRLBJTP7oe4xW0_FafTWxbD-cIkrmGkOg6VGRu6NVllAWJrcqQJYioTraP60Mdz-3TgkoWuTdDxp4zm0aWg1ab-Z9TuXT-RTzmfjpGItuikvQ_66YQxwlzmLVMgP8sd-UxrHzz1JWBFWY583A9h1xbSusSzeZOpG2aY2EAkEEa8WfdSVR2ozQcLRYma_K9GYZQwrkGGgg48Hu9xtBCN5x4nfH9nXvaICKVIbVhEL8YF5iwTLeeRCEfoCm7owUjX1T6UQAR4x1GGQ0bS1DJ9YmaDJl0LoALC8cEf-y21_4J91JJA5_zzwM6Vgu5RMys9IkcBNk90zX6y3g8dtuIe0=w948-h663-ft">
+            <img class="mySlides fade" src="https://lh3.googleusercontent.com/fife/AAWUweXJ_b8SR_O0O7lXMYPT7LrULsFuQhoLpyCpdRiGDNjadE5tt4UJ3711BzzSR9Fp9jEHOZmVmConrBUTVu2HaEw6iT3QsTB-NIDLgeHRejYGfCmEDnswChM7F6uFB3z2fQb4H5Jz1FlmmnHeKHzuBb3d67gZXgWdk1SG7yG6h62LHE_wwwGTSeiIi3GYEVtRVUN8_-DekaWekD8XFZiazdyOCszbfJ4l3JWob3hDM2AqdBbMdh9RUg3VTRFEIRTIfjI6vagK-9bl3v4kQ0zAisZWSOPgrBWTVVKQ9ynoWj3VEbLbt61yALOVi9TVUGc6AYd5cEAovN4ZrX2adf4k-9VI1JKIantV5QnpS5IDNc3beIS2Qil1F33yNs9s0QZnLL82vyL6L_Z1dwUW3YwJtNEUB7RgFyAZDfpsPQiRuBHwN72fVWympKA8ym9OdEI5XThX0W4uyPLYfhPkhqwadcmeBMgn9ZFx0AIODMu3xtX562RfUXZlkQjSvriAPhjDHBkpf5V0X6gsmgA8Zy6jGkHrsTZhuYjjDngq3FLJRrYDSE-guby4xbpT8VaY6K8mRtBAlHeyMf-CWMwYQ3t4o5BHerkGczwefRKNdJHq-YW4ObGoluTJx_cV3JMohXckKmbaJDbdc43Qbg0oND1XGf2LF_2AV79CHPXhrZut-Q7Ks-mKrdE2gLAi7SSKIn39DRkwqm2BJEhuz95lCCTQpmF0hdRWPJvs9BU=w948-h663-ft">
+            <a class="prev" onclick="plusDivs(this,-1)">&#10094;</a>
+            <a class="next" onclick="plusDivs(this,1)">&#10095;</a>
+                      </div>
+    </div>
+    <h4 class="text"> アルバム </h4>
+ </div>
+        </div>
+     <!-- Script -->     
+<script>
+  var sliderObjects = [];
+createSliderObjects();
+
+function plusDivs(obj, n) {
+  var parentDiv = $(obj).parent();
+  var matchedDiv;
+  $.each(sliderObjects, function(i, item) {
+    if ($(parentDiv[0]).attr('id') == $(item).attr('id')) {
+      matchedDiv = item;
+      return false;
+    }
+  });
+  matchedDiv.slideIndex=matchedDiv.slideIndex+n;
+  showDivs(matchedDiv, matchedDiv.slideIndex);
+}
+
+function createSliderObjects() {
+  var sliderDivs = $('.slider');
+  $.each(sliderDivs, function(i, item) {
+    var obj = {};
+    obj.id = $(item).attr('id');
+    obj.divContent = item;
+    obj.slideIndex = 1;
+    obj.slideContents = $(item).find('.mySlides');
+    showDivs(obj, 1);
+    sliderObjects.push(obj);
+  });
+}
+
+function showDivs(divObject, n) {
+  var i;
+  if (n > divObject.slideContents.length) {
+    divObject.slideIndex = 1
+  }
+  if (n < 1) {
+    divObject.slideIndex = divObject.slideContents.length
+  }
+  for (i = 0; i < divObject.slideContents.length; i++) {
+    divObject.slideContents[i].style.display = "none";
+  }
+  divObject.slideContents[divObject.slideIndex - 1].style.display = "block";
+}
+</script>
+
+    </body>
+</html>
